@@ -1,3 +1,521 @@
 *{
     margin: 0;
 }
+.all{
+    width: 100%;
+}
+.all1{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all3{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+.all4 button{
+    width: 120px;
+    padding: 15px;
+    border: none;
+    color: white;
+    background: linear-gradient(rgba(14, 23, 52, 1));
+    border-radius: 8px;
+}
+.all5{
+    display: none;
+}
+.zll{
+    width: 100%;
+}
+.zll1{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zll3 img{
+       width: 700px;
+       height: 700px;
+}
+.zll2 h1{
+    width: 800px;
+    font-size: 70px;
+}
+.zll2 p{
+    font-size: 22px;
+    margin-top: 30px;
+    color: gray;
+    width: 550px;
+}
+.zll2 button{
+    width: 160px;
+    padding: 15px;
+    border: none;
+    background: linear-gradient(rgba(14, 23, 52, 1));
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.zll4 button{
+    display: none;
+}
+.zll4 p{
+    display: none;
+}
+.kll{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.kll1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.kll3 button{
+    width: 160px;
+    padding: 15px;
+    border: none;
+    background: linear-gradient(rgba(14, 23, 52, 1));
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.kll3 h1{
+    width: 800px;
+    font-size: 50px;
+}
+.kll3 p{
+    font-size: 22px;
+    margin-top: 30px;
+    color: gray;
+    width: 550px;
+}
+.kll2 img{
+    width: 500px;
+}
+.h122{
+    display: none;
+}
+.ree{
+    width: 100%;
+    margin-top: 150px;
+}
+.ree1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.ree2 button{
+    width: 160px;
+    padding: 15px;
+    border: none;
+    background: linear-gradient(rgba(14, 23, 52, 1));
+    color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.ree2 h1{
+    font-size: 48px;
+}
+.ree2 p{
+    width: 600px;
+    font-size: 20px;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.ree3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+.ree4{
+    width: 384px;
+    height: 680px;
+}
+.ree4 h1{
+    margin-top: 20px;
+    align-items: center;
+}
+.ree4 p{
+    color: gray;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.ree4 img:hover{
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+}
+.ree5 button{
+    display: none;
+}
+.poo{
+    width: 100%;
+    margin-top: 150px;
+}
+.poo1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.poo5{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(232, 229, 229, 0.698);
+    margin-top: 20px;
+}
+.poo5:hover{
+        box-shadow: 0px 0px 10px gray ;
+}
+.poo6:hover{
+        box-shadow: 0px 0px 10px gray ;
+}
+.poo5 img{
+    width: 40px;
+    height: 40px;
+}
+.poo6{
+    width: 500px;
+    height: 150px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(232, 229, 229, 0.698);
+    margin-top: 20px;
+}
+.poo6 h1{
+     display: flex;
+     justify-content: space-around;
+     padding-top: 20px;
+}
+.poo6 p{
+     margin-top: 30px;
+     color: gray;
+     font-size: 17px;
+     width: 450px;
+     margin-left: 40px;
+}
+.poo6 img{
+    width: 40px;
+    height: 40px;
+}
+.poo4{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+.poo2 h4{
+    color: black;
+    font-size: 22px;
+}
+.poo2 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.poo2 p{
+    width: 350px;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.poo3{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.poo3 button{
+    width: 160px;
+    padding: 13px;
+    border: none;
+    background: linear-gradient(rgba(14, 23, 52, 1));
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    align-items: center;
+}
+.poo3 p{
+    color: black;
+}
+.tll{
+    width: 100%;
+    margin-top: 150px;
+}
+.tll1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.tll h1{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+.tll h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.img4{
+    margin-bottom: 30px;
+}
+.tll1 p{
+    width: 500px;
+    margin-left: 34%;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.ute{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(11, 38, 90, 1));
+    color: white;
+    margin-top: 100px;
+}
+.ute1{
+    width: 80%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.ute2 h1{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.ute2 p{
+    width: 180px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.img5{
+    display: flex;
+    gap: 20px;
+}
+.ute3{
+    display: flex;
+    gap: 100px;
+}
+.ute4 p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+@media(max-width:600px)
+{
+    .all3{
+        display: none;
+    }
+    .all4{
+        display: none;
+    }
+    .all5{
+        display: block;
+    }
+    .zll2 button{
+        display: none;
+    }
+    .zll4 button{
+    display: block;    
+    width: 160px;
+    padding: 15px;
+    border: none;
+    background: linear-gradient(rgba(14, 23, 52, 1));
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 80px;
+    }
+    .zll4 p{
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+    color: gray;
+    width: 330px;
+}
+.zll2 p{
+    display: none;
+}
+.zll1{
+    display: flex;
+    flex-direction: column;
+}
+.zll2 h1{
+    font-size: 28px;
+    width: 300px;
+    margin-left: 40px;
+}
+.zll3 img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.kll1{
+    display: flex;
+    flex-direction: column;
+}
+.h122{
+    display: block;
+    font-size: 28px;
+}
+.kll2 img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.kll3 h1{
+    display: none;
+}
+.kll3 p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: gray;
+    width: 330px;
+}
+.kll3 button{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.cdd h1{
+     margin-left: 100px;
+     margin-bottom: 30px;
+}
+.ree1{
+    display: flex;
+    flex-direction: column;
+}
+.ree3{
+    display: flex;
+    flex-direction: column;
+}
+.img2{
+    width: 250px;
+}
+.ree4 p{
+     font-size: 16px;
+     width: 250px;
+     margin-left: 60px;
+}
+.ree1{
+    width: 95%;
+}
+.ree2 h1{
+    font-size: 29px;
+}
+.ree2 p{
+    width: 250px;
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+.ree5 button{
+    display: block;
+    width: 160px;
+    padding: 15px;
+    border: none;
+    background: linear-gradient(rgba(14, 23, 52, 1));
+    color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-left: 110px;
+    position: relative;
+    bottom: 430px;
+}
+.ree2 button{
+    display: none;
+}
+.cll{
+    position: relative;
+    bottom: 150px;
+}
+.cld{
+    position: relative;
+    bottom: 250px;
+}
+.poo1{
+    display: flex;
+    flex-direction: column;
+}
+.poo4{
+    display: none;
+}
+.poo2 h1{
+    width: 100%;
+    font-size: 29px;
+    margin-left: 30px;
+}
+.poo2 h4{
+    width: 70%;
+    font-size: 22px;
+    margin-left: 80px;
+}
+.poo3{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.poo2 p{
+    display: none;
+}
+.poo{
+    position: relative;
+    bottom: 500px;
+}
+.tll1 h1{
+    font-size: 29px;
+}
+.tll1 p{
+    font-size: 15px;
+    position: relative;
+    right: 90px;
+    width: 300px;
+}
+.tll h3{
+    margin-left: 10px;
+}
+.tll{
+    position: relative;
+    bottom: 550px;
+}
+.ute{
+    height: 300px;
+}
+.ute1{
+    display: flex;
+    flex-direction: column;
+}
+.ute3{
+    display: none;
+}
+.ute2{ 
+    margin-left: 80px;
+}
+.ute2 h1{
+    font-size: 53px;
+}
+.ute{
+    position: relative;
+    bottom: 500px;
+}
+}
